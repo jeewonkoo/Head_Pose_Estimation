@@ -1,0 +1,10 @@
+name: mediapipe-x86
+channels:
+  - defaults
+dependencies:
+  - python=3.9
+  - pip
+  - pip:
+    - mediapipe>=0.8.9
+variables:
+  CONDA_SUBDIR: osx-64
